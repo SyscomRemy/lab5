@@ -1,8 +1,9 @@
 #!/bin/bash
-cd ~/Desktop/lab4/5AS05-partie4
+path=$1
+cd $path
 for dossier in *
 do
-	if [ -d "$dossier" ]
+	if [ -d $dossier ]
 	then 
 		echo "$dossier"
 	fi

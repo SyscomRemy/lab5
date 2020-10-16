@@ -1,16 +1,12 @@
 #!/bin/bash
 
-read  v1
-read  v2
-
-if (($v1 > $v2));
+if [ $1 -gt $2 ];
 then
-	echo " $v1 > $v2"
+	echo " $1 > $2"
 
-elif (($v1 == $v2));
+elif [ $1 -eq $2 ];
 then
-	echo " $v1 = $v2"
+	echo " $1 = $2"
 else
-	echo "$v2 > $v1"
+	echo "$2 > $1"
 fi
-

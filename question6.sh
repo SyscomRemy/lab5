@@ -1,11 +1,18 @@
 #!/bin/bash
 
-for i in 'seq 1 20'
+for i in $(seq 1 10);
 do
-	wget https://xkcd.com/$i/
-	grep -o 'https.*jpg' index.html
+	wget -qO index$i https://xkcd.com/$i/ 
+	grep -o 'https.*jpg' index$i | xargs eog
+	
+	rm index$i
 
 done
+
+
+
+
+
  
 
 

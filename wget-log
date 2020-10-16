@@ -99,4 +99,8 @@ Connecting to 20 (20)|0.0.0.20|:80... failed: Connection timed out.
 Retrying.
 
 --2020-10-15 18:01:59--  (try: 4)  http://20/
+Connecting to 20 (20)|0.0.0.20|:80... failed: Connection timed out.
+Retrying.
+
+--2020-10-15 18:04:13--  (try: 5)  http://20/
 Connecting to 20 (20)|0.0.0.20|:80... 

@@ -6,5 +6,6 @@ do
 	if [ -d $dossier ]
 	then 
 		echo "$dossier"
-	fi
+	fi 
+
 done
